@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/styles/main.css</file>
+        <file>res/images/list.png</file>
+        <file>res/images/option.png</file>
+        <file>res/images/options.png</file>
+        <file>res/images/exit.png</file>
+        <file>res/images/save_money.png</file>
+        <file>res/images/coin_single_gold.png</file>
+        <file>res/images/coin_stack_gold.png</file>
+        <file>res/images/www_page.png</file>
+        <file>res/images/basket_shopping.png</file>
+        <file>res/images/key_solid.png</file>
+    </qresource>
+</RCC>

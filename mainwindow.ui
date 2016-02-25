@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Georgia</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QToolButton" name="toolButton">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/res/images/save_money.png</normaloff>:/res/images/save_money.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QToolButton" name="toolButton_2">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/res/images/www_page.png</normaloff>:/res/images/www_page.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="font">
+         <font>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/res/images/coin_single_gold.png</normaloff>:/res/images/coin_single_gold.png</iconset>
+         </attribute>
+         <attribute name="title">
+          <string>CJ</string>
+         </attribute>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QListWidget" name="listWidget_cj_bookmark">
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Georgia</family>
+              <italic>true</italic>
+             </font>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QTabWidget" name="tabWidget_2">
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <widget class="QWidget" name="tab_6">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/res/images/list.png</normaloff>:/res/images/list.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Advertisers</string>
+                 </attribute>
+                 <layout class="QVBoxLayout" name="verticalLayout_4">
+                  <item>
+                   <widget class="QScrollArea" name="scrollArea">
+                    <property name="widgetResizable">
+                     <bool>true</bool>
+                    </property>
+                    <widget class="QWidget" name="scrollAreaWidgetContents">
+                     <property name="geometry">
+                      <rect>
+                       <x>0</x>
+                       <y>-104</y>
+                       <width>553</width>
+                       <height>482</height>
+                      </rect>
+                     </property>
+                     <layout class="QVBoxLayout" name="verticalLayout">
+                      <item>
+                       <widget class="QGroupBox" name="groupBox_2">
+                        <property name="title">
+                         <string>Search Terms</string>
+                        </property>
+                        <layout class="QVBoxLayout" name="verticalLayout_6">
+                         <item>
+                          <widget class="QLabel" name="label">
+                           <property name="text">
+                            <string>Id</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLineEdit" name="lineEdit_cj_id">
+                           <property name="placeholderText">
+                            <string>input advertiser id</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="label_2">
+                           <property name="text">
+                            <string>Name</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLineEdit" name="lineEdit_cj_name">
+                           <property name="placeholderText">
+                            <string>input advertiser name</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="label_3">
+                           <property name="text">
+                            <string>Keywords</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLineEdit" name="lineEdit_cj_keywords">
+                           <property name="placeholderText">
+                            <string>input a keyword</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QGroupBox" name="groupBox">
+                        <property name="title">
+                         <string>Result</string>
+                        </property>
+                        <layout class="QVBoxLayout" name="verticalLayout_5">
+                         <item>
+                          <widget class="QTreeWidget" name="treeWidget_cj_result">
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>250</height>
+                            </size>
+                           </property>
+                           <property name="font">
+                            <font>
+                             <family>Georgia</family>
+                             <italic>true</italic>
+                            </font>
+                           </property>
+                           <property name="wordWrap">
+                            <bool>true</bool>
+                           </property>
+                           <column>
+                            <property name="text">
+                             <string>Name</string>
+                            </property>
+                           </column>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QWidget" name="tab_7">
+                 <attribute name="icon">
+                  <iconset resource="res.qrc">
+                   <normaloff>:/res/images/list.png</normaloff>:/res/images/list.png</iconset>
+                 </attribute>
+                 <attribute name="title">
+                  <string>Links</string>
+                 </attribute>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/res/images/coin_single_gold.png</normaloff>:/res/images/coin_single_gold.png</iconset>
+         </attribute>
+         <attribute name="title">
+          <string>LinkShare</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/res/images/coin_single_gold.png</normaloff>:/res/images/coin_single_gold.png</iconset>
+         </attribute>
+         <attribute name="title">
+          <string>Shareasale</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/res/images/coin_single_gold.png</normaloff>:/res/images/coin_single_gold.png</iconset>
+         </attribute>
+         <attribute name="title">
+          <string>oneNetworkDirect</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/res/images/coin_single_gold.png</normaloff>:/res/images/coin_single_gold.png</iconset>
+         </attribute>
+         <attribute name="title">
+          <string>Avangate</string>
+         </attribute>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QProgressBar" name="progressBar">
+      <property name="value">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Georgia</family>
+    </font>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+     </font>
+    </property>
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_Exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_Database">
+    <property name="title">
+     <string>&amp;Database</string>
+    </property>
+    <addaction name="action_Websites"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menu_Database"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_Exit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/exit.png</normaloff>:/res/images/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Exit</string>
+   </property>
+  </action>
+  <action name="action_Websites">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/www_page.png</normaloff>:/res/images/www_page.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Websites</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Georgia</family>
+     <italic>true</italic>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
