@@ -1,0 +1,36 @@
+* {
+    font-family: Georgia;
+    font-style: italic;
+}
+QMenuBar {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 lightgray, stop:1 darkgray);
+}
+QMenuBar::item {
+    spacing: 6px;
+    padding: 6px 6px;
+    background: transparent;
+}
+QMenuBar::item:selected {
+    background: #a8a8a8;
+}
+QMenuBar::item:pressed {
+    background: #888888;
+}
+QMenu {
+    padding: 3px;
+}
+QMenu::item:selected {
+}
+QLineEdit {
+    padding: 3px;
+}
+QListWidget::item {
+    padding: 3px;
+}
+QTreeWidget::item {
+    padding: 3px;
+}
+QTreeWidget {
+}
+QHeaderView::section {
+}
